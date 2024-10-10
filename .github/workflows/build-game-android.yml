@@ -33,5 +33,5 @@ jobs:
       - name: Upload the artifact
         uses: actions/upload-artifact@v4
         with:
-          name: app-debug
+          name: Funkin-debug
           path: export/release/android/bin/app/build/outputs/apk/debug/*
