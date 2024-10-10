@@ -31,7 +31,7 @@ jobs:
         run: haxelib run lime build android
 
       - name: Upload the artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@main
         with:
           name: Funkin-debug
           path: export/release/android/bin/app/build/outputs/apk/debug/*
