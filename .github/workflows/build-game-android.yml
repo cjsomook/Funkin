@@ -31,7 +31,7 @@ jobs:
         run: haxelib run lime build android
 
       - name: Upload the artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: app-debug
           path: export/release/android/bin/app/build/outputs/apk/debug/*
